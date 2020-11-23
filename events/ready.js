@@ -7,13 +7,13 @@ var prefix = ayarlar.prefix;
 
 module.exports = client => {
 var oyun = [
-        "HusooTV - ready.js ¸zerinden dei˛tir",
-        "sat˝r 1",
-        "sat˝r 2",
-        "sat˝r 3",
-        "sat˝r 4",
-        "sat˝r 5",
-       //DBL EKLENCEKSEN›Z 5000 EN ›Y› DE–›ﬁ›M S‹RES›D›R! EKLEMEK ›STEM›YORSANIZ ›DEAL 2500
+        "Bot    Yapƒ±mcƒ±sƒ± Enes",
+        "sat√Ωr 1",
+        "sat√Ωr 2",
+        "sat√Ωr 3",
+        "sat√Ωr 4",
+        "sat√Ωr 5",
+       //DBL EKLENCEKSEN√ùZ 5000 EN √ùY√ù DE√ê√ù√û√ùM S√úRES√ùD√ùR! EKLEMEK √ùSTEM√ùYORSANIZ √ùDEAL 2500
 
     ];
 
@@ -22,12 +22,12 @@ var oyun = [
         var random = Math.floor(Math.random()*(oyun.length-0+1)+0);
 
         client.user.setActivity(oyun[random], "https://www.youtube.com/channel/UC5mxQbR-4er2giWDTq9SgQg?view_as=subscriber" );
-      }, 2 * 5000); //DE–›ﬁME S‹RES›
+      }, 2 * 5000); //DE√ê√ù√ûME S√úRES√ù
 
-  console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Aktif, Komutlar y¸klendi!`);
-  console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: ${client.user.username} ismi ile giri˛ yap˝ld˝!`);
+  console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Aktif, Komutlar y√ºklendi!`);
+  console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: ${client.user.username} ismi ile giri√æ yap√Ωld√Ω!`);
   client.user.setStatus("online");
-  client.user.setActivity(`${prefix}yard˝m + ${client.guilds.size} sunucu + ${client.users.size} kullan˝c˝`);
-  //console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Oyun ismi ayarland˝!`);
-  //console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: ﬁu an ` + client.channels.size + ` adet kanala, ` + client.guilds.size + ` adet sunucuya ve ` + client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString() + ` kullan˝c˝ya hizmet veriliyor!`);
+  client.user.setActivity(`${prefix}yard√Ωm + ${client.guilds.size} sunucu + ${client.users.size} kullan√Ωc√Ω`);
+  //console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Oyun ismi ayarland√Ω!`);
+  //console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: √ûu an ` + client.channels.size + ` adet kanala, ` + client.guilds.size + ` adet sunucuya ve ` + client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString() + ` kullan√Ωc√Ωya hizmet veriliyor!`);
 };
